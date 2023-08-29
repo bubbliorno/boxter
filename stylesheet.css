@@ -1,0 +1,73 @@
+/*STYLE SHEET*/
+
+body {
+	background-color: rgb(255,192,222);
+	font-size: 16px;
+}
+
+h1, p, marquee {
+	color: rgb(16,80,27);
+}
+
+a {
+	color: rgb(103,121,103);
+}
+
+#site-header {
+	border-bottom: 1px solid black;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+.content {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 900px;
+	padding: 2rem 0 4em;
+}
+
+.content-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.boxter-container {
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 40%;
+}
+
+.text-container {
+	flex-grow: 2;
+	flex-shrink: 2;
+	flex-basis: 50%;
+}
+
+.boxter {
+	max-width: 100%;
+	height: auto;
+}
+
+footer {
+	text-align: center;
+}
+
+.footer-boxter-container {
+	border-bottom: 1px solid black;
+	margin-bottom: 5px;
+}
+
+.footer-boxter {
+	max-width: 8rem;
+	height: auto;
+}
+
+.badges {
+	margin-bottom: 4rem;
+}
+
+#audio {
+	max-width: 320px;
+	margin: auto;
+}
