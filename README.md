@@ -1,4 +1,4 @@
 # first-site
-my first website
+website
 
 first website with pure html and css
