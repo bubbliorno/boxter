@@ -1,8 +1,29 @@
 /*STYLE SHEET*/
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
+#site-header {
+    margin-bottom: 15px;
 }
 
+.gallery {
+    max-width: 100%;
+    padding: 0 5em;
+    object-fit: cover;
+}
+
+.container {
+    --n: 4; /* Max number of columns */
+    width: auto;
+    height: auto; 
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(max(200px, 100%/var(--n)), 1fr)); /* Removes columns as needed. Max is n + 1 columns. Minimum width is 200 pixels */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Images */
+.container img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid black;
+}
