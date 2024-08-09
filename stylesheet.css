@@ -1,16 +1,24 @@
 /*STYLE SHEET*/
 
 body {
-	background-color: rgb(255,192,222);
+	background-color: rgb(253, 169, 208);
 	font-size: 16px;
 }
 
 h1, p, marquee {
-	color: rgb(16,80,27);
+	color: rgb(77, 11, 97);
 }
 
 a {
-	color: rgb(103,121,103);
+	color: rgb(167, 5, 99);
+}
+
+a.active {
+	color: rgb(77, 11, 97);
+}
+
+a:hover {
+	color: rgb(255, 78, 122);
 }
 
 #site-header {
