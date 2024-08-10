@@ -5,25 +5,21 @@
 }
 
 .gallery {
-    max-width: 100%;
-    padding: 0 5em;
-    object-fit: cover;
+    margin: auto;
+    max-width: 80%;
+    justify-content: center;
+    align-content: center;
 }
 
 .container {
-    --n: 4; /* Max number of columns */
-    width: auto;
-    height: auto; 
-    display: grid;
-    gap: 10px;
-    grid-template-columns: repeat(auto-fit, minmax(max(200px, 100%/var(--n)), 1fr)); /* Removes columns as needed. Max is n + 1 columns. Minimum width is 200 pixels */
-    justify-content: center;
-    align-items: center;
+    margin: 0 auto;
 }
 
 /* Images */
 .container img {
-    max-width: 100%;
-    height: auto;
-    border: 1px solid black;
+    margin-bottom: 10px;
+    width: 300px;
+    object-fit: contain;
+    border: 0.15em solid black;
+    box-sizing: border-box;
 }
