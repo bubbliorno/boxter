@@ -1,9 +1,18 @@
 /*STYLE SHEET*/
 
+@font-face {
+	font-family: "Babel Stone Han";
+	src:
+		url(fonts/BabelStoneHan.woff2) format("woff2"),
+		url(fonts/BabelStoneHan.woff) format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
 body {
 	background-color: rgb(253, 169, 208);
 	font-size: 16px;
-	font-family: SimSun, "Segoe UI";
+	font-family: "Babel Stone Han", "Segoe UI";
 }
 
 h1 {
