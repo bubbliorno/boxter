@@ -3,10 +3,8 @@
 @font-face {
 	font-family: "BabelStone Han";
 	src:
-		url(https://www.babelstone.co.uk/Fonts/WOFF/BabelStoneHan.woff2) format("woff2"),
-		url(https://www.babelstone.co.uk/Fonts/WOFF/BabelStoneHan.woff) format("woff"),
-		url(fonts/BabelStoneHan.woff2) format("woff2"),
-		url(fonts/BabelStoneHan.woff) format("woff");
+		url(https://www.babelstone.co.uk/Fonts/WOFF/BabelStoneHan.woff2) format("woff2");
+		/*url(fonts/BabelStoneHan.woff2) format("woff2");*/
 	font-display: swap;
 	unicode-range: U+00-52F, U+1E00-1FFF, U+2200-22FF;
 	font-weight: normal;
