@@ -1,5 +1,5 @@
 /*
-  Cache-Control: public, max-age=7884000, immutable
+  Cache-Control: public, max-age=31556952, immutable
 
 https://boxter.pages.dev/*
   X-Robots-Tag: noindex
